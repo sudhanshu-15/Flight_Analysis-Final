@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">NASA TLX</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="question_1">How mentally demanding was the task?</string>
+    <string name="male_ch">Male</string>
+    <string name="female_ch">Female</string>
+
+    <string name="question_text">Click on the factor that represents the more important contributor to workload for the task</string>
+
+    <string name="option_text_1_0">Performance</string>
+    <string name="option_text_1_1">Temporal Demand</string>
+    <string name="option_text_1_2">Temporal Demand</string>
+    <string name="option_text_1_3">Mental Demand</string>
+    <string name="option_text_1_4">Physical Demand</string>
+    <string name="option_text_1_5">Frustration</string>
+    <string name="option_text_1_6">Temporal Demand</string>
+    <string name="option_text_1_7">Physical Demand</string>
+    <string name="option_text_1_8">Physical Demand</string>
+    <string name="option_text_1_9">Effort</string>
+    <string name="option_text_1_10">Performance</string>
+    <string name="option_text_1_11">Mental Demand</string>
+    <string name="option_text_1_12">Performance</string>
+    <string name="option_text_1_13">Effort</string>
+    <string name="option_text_1_14">Frustration</string>
+
+    <string name="option_text_2_0">Frustration</string>
+    <string name="option_text_2_1">Effort</string>
+    <string name="option_text_2_2">Mental Demand</string>
+    <string name="option_text_2_3">Physical Demand</string>
+    <string name="option_text_2_4">Temporal Demand</string>
+    <string name="option_text_2_5">Effort</string>
+    <string name="option_text_2_6">Frustration</string>
+    <string name="option_text_2_7">Performance</string>
+    <string name="option_text_2_8">Frustration</string>
+    <string name="option_text_2_9">Physical Demand</string>
+    <string name="option_text_2_10">Temporal Demand</string>
+    <string name="option_text_2_11">Effort</string>
+    <string name="option_text_2_12">Mental Demand</string>
+    <string name="option_text_2_13">Performance</string>
+    <string name="option_text_2_14">Mental Demand</string>
+
+    <string name="performance">Performance is defined as how successful do you think you were in accomplishing the goals of the task set by the experimenter (or yourself)? How satisfied were you with your performance in accomplishing these goals?</string>
+    <string name="frustration">Frustration is defined as how insecure, discouraged, irritated, stressed and annoyed versus secure, gratified, content, relaxed and complacent did you feel during the task?</string>
+    <string name="temporal_demand">Temporal Demand is defined as how much time pressure did you feel due to the rate of pace at which the tasks or task elements occurred? Was the pace slow and leisurely or rapid and frantic?</string>
+    <string name="effort">Effort is defined as how hard did you have to work (mentally and physically) to accomplish your level of performance?</string>
+    <string name="mental_demand">Mental Demand is defined as how much mental and perceptual activity was required (e.g. thinking, deciding, calculating, remembering, looking, searching, etc)? Was the task easy or demanding, simple or complex, exacting or forgiving?</string>
+    <string name="physical_demand">Physical Demand is defined as how much physical activity was required (e.g. pushing, pulling, turning, controlling, activating, etc)? Was the task easy or demanding, slow or brisk, slack or strenuous, restful or laborious?</string>
+
+</resources>
+
+

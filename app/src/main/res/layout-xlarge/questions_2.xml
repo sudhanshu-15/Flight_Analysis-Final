@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/question_text"
+                android:textSize="20dp"/>
+            <TextView android:text=" "
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blank_text_1"
+                android:layout_below="@+id/question_text"
+                android:textSize="20dp"/>
+            <RadioGroup
+                android:id="@+id/radioOptionGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/blank_text_1">
+                <RadioButton
+                    android:id="@+id/option_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:background="@drawable/selectors"
+                    android:minWidth="20dp"
+                    android:minHeight="20dp"/>
+                <RadioButton
+                    android:id="@+id/option_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:background="@drawable/selectors"
+                    android:minWidth="20dp"
+                    android:minHeight="20dp"/>
+            </RadioGroup>
+            <TextView android:text=" " android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blank_text_3_0"
+                android:layout_below="@+id/radioOptionGroup"
+                android:textSize="20dp"/>
+            <TextView android:text=" " android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blank_text_3"
+                android:layout_below="@+id/blank_text_3_0"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/option_1_text"
+                android:layout_below="@+id/blank_text_3"
+                android:paddingLeft="32dp"/>
+            <TextView android:text=" " android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blank_text_4"
+                android:layout_below="@+id/option_1_text"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/option_2_text"
+                android:layout_below="@+id/blank_text_4"
+                android:paddingLeft="32dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

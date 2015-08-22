@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/question_text"
+                android:textSize="20dp"/>
+            <TextView android:text=" " android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blank_text_1"
+                android:layout_below="@+id/question_text"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/value_seek_text"
+                android:textSize="20dp"
+                android:layout_below="@+id/blank_text_1"
+                android:layout_alignParentLeft="true"
+                android:text="Selected Value: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/answer_value"
+                android:textSize="20dp"
+                android:layout_below="@+id/blank_text_1"
+                android:layout_alignParentRight="true"/>
+            <TextView android:text=" " android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blank_text_2"
+                android:layout_below="@+id/answer_value"
+                android:textSize="20dp"/>
+            <SeekBar
+                android:id="@+id/cardview_elevation_seekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/blank_text_2"
+                android:thumb="@drawable/thumb_image"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/very_low_text"
+                android:textSize="20dp"
+                android:layout_below="@+id/cardview_elevation_seekbar"
+                android:layout_alignParentLeft="true"
+                android:text="Very Low"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/very_high_text"
+                android:textSize="20dp"
+                android:layout_below="@+id/cardview_elevation_seekbar"
+                android:layout_alignParentRight="true"
+                android:text="Very High"/>
+
+            <TextView android:text=" " android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blank_text_3"
+                android:layout_below="@+id/very_low_text"
+                android:textSize="20dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Prev"
+                android:id="@+id/prev_button"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/blank_text_3"
+                android:layout_alignParentLeft="true"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Next"
+                android:id="@+id/next_button"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/blank_text_3"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

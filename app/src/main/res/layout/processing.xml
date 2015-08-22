@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/completion_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Thank You! Your inputs have been recorded."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/blank_text_0"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/completion_txt"
+                android:text=" "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/folder_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/blank_text_0"
+                android:text="The file has been placed in path:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/folder_value_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/folder_txt"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/blank_text_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/folder_value_txt"
+                android:text=" "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/file_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/blank_text_1"
+                android:text="The file name is:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/file_value_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/file_txt"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
